@@ -1,0 +1,8 @@
+path: /Users/guilhermevargas/Desktop/GS-LuzSegura-CV/dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names:
+  0: street_light_0
