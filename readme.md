@@ -4,11 +4,11 @@
 **FIAP | Global Solution 2026.2**  
 **Disciplina:** Applied Computer Vision  
 **Curso:** Engenharia de Software — 4º ano
-**Grupo:** Aluno: Guilherme Dal Posolo Matheus RM: 98694
-Aluno: Guilherme Faustino Vargas RM: 98278
-Aluno: João Lucas Yudi RM: 98458
-Aluno: Lucas Laia Manentti RM: 97709
-Aluno: Ryan Perez Pacheco RM: 98782
+**Grupo:** Aluno: Guilherme Dal Posolo Matheus RM: 98694 //
+Aluno: Guilherme Faustino Vargas RM: 98278 //
+Aluno: João Lucas Yudi RM: 98458 //
+Aluno: Lucas Laia Manentti RM: 97709 //
+Aluno: Ryan Perez Pacheco RM: 98782 //
 
 
 ## 1. Sobre o projeto
