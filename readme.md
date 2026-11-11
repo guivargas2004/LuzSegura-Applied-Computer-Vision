@@ -175,4 +175,69 @@ para identificar luminárias de iluminação pública.
 Como evolução, o sistema poderá ser integrado a sensores
 de luminosidade, plataformas de monitoramento e automações
 de análise de ocorrências.
+
+
+---
+
+## 11. Evidências do treinamento e da detecção
+
+Esta seção apresenta os resultados obtidos durante
+o treinamento e a avaliação do modelo YOLO11n
+personalizado para o projeto LuzSegura.
+
+### - Evolução do treinamento
+
+O gráfico abaixo apresenta a evolução das métricas
+e das perdas durante o treinamento do modelo.
+
+![Resultados do treinamento](evidencias/resultados_treinamento.png)
+
+### - Matriz de confusão
+
+A matriz de confusão auxilia na análise dos
+acertos e erros do modelo durante a avaliação.
+
+![Matriz de confusão](evidencias/matriz_confusao.png)
+
+### - Resultados da detecção
+
+**Exemplo 1 — Detecção correta**
+
+Exemplo de uma luminária identificada pelo
+modelo de visão computacional.
+
+![Detecção correta](evidencias/deteccao_correta.jpg)
+
+**Exemplo 2 — Detecção com dificuldade**
+
+Exemplo de situação em que características
+da imagem dificultam a identificação da luminária.
+
+![Detecção com dificuldade](evidencias/deteccao_dificuldade.jpg)
+
+**Exemplo 3 — Limitação do modelo**
+
+Exemplo de erro ou limitação observado durante
+os testes, evidenciando oportunidades de melhoria.
+
+![Limitação do modelo](evidencias/deteccao_limitacao.jpg)
+
+### - Métricas no conjunto de teste
+
+O modelo foi avaliado utilizando 124 imagens de
+teste contendo 346 luminárias anotadas.
+
+| Métrica | Resultado 
+| Precision: 87,3% 
+| Recall: 66,8% 
+| mAP50: 71,7% 
+| mAP50-95:  34,9% 
+
+Os resultados indicam que o modelo aprendeu
+características visuais das luminárias.
+
+Entretanto, ainda apresenta limitações na
+detecção de objetos pequenos, distantes
+ou parcialmente encobertos.
+
 ```
